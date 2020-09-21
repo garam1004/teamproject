@@ -1,0 +1,49 @@
+@import url("http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900");
+@import url("font-awesome.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+
+table {
+	FONT-SIZE: 12pt; COLOR: black; LINE-HEIGHT: 160%; font-family: 'Nanum Gothic', sans-serif;
+
+}
+
+#notice{
+	FONT-SIZE:12pt; COLOR: #000000; LINE-HEIGHT: 160%; font-family: 'Nanum Gothic', sans-serif;
+}
+
+article table#notice th{height: 20px;
+text-transform: capitalize;font-size: 14px;
+font-family:  'Nanum Gothic', sans-serif; font-weight: bold;padding: 5px;
+background-color: #b3b3b3;
+color:#000000;
+width: 230px;
+padding-left: 30px;}
+
+article table#notice td{
+font-family:  'Nanum Gothic', sans-serif;
+padding: 6px 0; border-bottom-width: 1px;
+border-bottom-style: dotted;border-bottom-color: #999;}
+
+/*너비 50px 
+왼쪽위 둥글게5px 왼쪽아래 둥글게5px*/
+article th.ttitle{letter-spacing: 0.7em;
+width: 200px;
+border-top-left-radius:5px;
+border-bottom-left-radius:5px;}
+/*너비 400px 문자간격 0.7em*/
+article th.twrite{width: 10%;}
+/*너비 100px*/
+article th.tpubllisher{width: 50px;}
+/*너비 50px*/
+article th.tid{width: 50px;}
+article th.tgood{width: 50px;
+border-top-right-radius:5px;
+border-bottom-right-radius:5px;}
+
+#table_search{margin: 15px 0 10px 0;
+float: right;}
+
+
+#a:hover{
+ 	color: #82baf7; 
+}
